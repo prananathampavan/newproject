@@ -1,7 +1,6 @@
 <project name="testing" basedir="." default="mkdir">
-
-<property name="folder" value="E:\jenkins"/>
-<property name="class" value="E:\class"/>
+<property name="folder" value="F:\jenkins"/>
+<property name="class" value="E:\pavan"/>
 <property name="copy" value="E:\newproject"/>
 
 <target name="mkdir" description="create jenkins folder">
