@@ -3,7 +3,7 @@
 <property name="class" value="F:\class"/>
 <property name="copy" value="F:\pavan"/>
 
-<target name="mkdir" description="create jenkins folder">
+<target name="mkdir" depends="create" description="create jenkins folder">
 <delete dir="${folder}"/>
 <mkdir dir="${folder}"/>
 <copydir src="${copy}" dest="${folder}"/>
